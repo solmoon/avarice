@@ -17,20 +17,36 @@
             padding-left: 30%;
         }
         #c{
-            background-color: lawngreen;
+            background-image: url("/image/1.jpg");
+            background-size: 100% 100%;
             animation: c 10s infinite;
         }
         #x{
-            background-color: red;
+            background-image: url("/image/3.jpg");
+            background-size: 100% 100%;
             animation: x 10s infinite;
         }
         #q{
-            background-color: darkorange;
+            background-image: url("/image/4.jpg");
+            background-size: 100% 100%;
             animation: q 10s infinite;
         }
         #d{
-            background-color: whitesmoke;
+            background-image: url("/image/5.jpg");
+            background-size: 100% 100%;
             animation: d 10s infinite;
+        }
+        #z{
+            font-size: 36px;
+            display: block;
+            animation: z 10s infinite;
+        }
+        @keyframes z {
+            0%{opacity: 0}
+            70%{opacity: 0}
+            80%{opacity: 100}
+            90%{opacity: 100}
+            100%{opacity:0;}
         }
         @keyframes c {
             0%{opacity: 0}
@@ -64,6 +80,9 @@
 <page id="c">春</page>
 <page id="x">夏</page>
 <page id="q">秋</page>
-<page id="d">冬</page>
+<page id="d">
+    冬
+    <span id="z">贞下起元</span>
+</page>
 </body>
 </html>
